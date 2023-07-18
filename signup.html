@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <body>
+          <div class="navbar">
+            
+            <div class="navbar-brand">
+              <img src="images/YS.jpg" alt="">
+              <a href="#">YourShop</a>
+            </div>
+          </div>
+      </nav>
+
+      <form class="form" action="/myaction.html" name="myform" onsubmit="return validateForm()">
+        <div class="form_container">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Sign-up</h2>
+        <label for="name">Name:<i>*</i></label>
+
+        <div class="formdesign" id="name">
+          <input type="text" name="name" placeholder="ex: Richa Yadav"><b><span class="formerror"></span></b>
+        </div>
+       
+        <br>
+        <label for="email">Email:<i>*</i></label>
+        <div class="formdesign" id="email">
+          <input type="text" name="email" placeholder="ex: richa@gmail.com"><b><span class="formerror"></span></b>
+        </div>
+        
+        
+
+        <!-- <button class="btn">Submit</button> -->
+        <input type="submit" class="btn">
+        </div>
+        
+      </form>
+
+
+     <script src="main.js"></script>
+</body>
+</html>

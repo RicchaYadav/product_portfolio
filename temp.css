@@ -1,0 +1,93 @@
+@media screen and (max-width :600px){
+
+    /* ------------------------------ NAV Section -------------------------------- */
+    body{
+      /* width: auto; */
+    }
+    .navbar{
+      justify-content: space-between;
+      margin-left: -3rem;
+      /* margin-right: -6rem; */
+      padding: 10px;
+  
+    }
+  
+    .signup-btn{
+      /* margin-left: 6rem; */
+      margin-right: -3rem;
+    }
+    /* .container{
+      /* margin: 0 -2rem; */
+    } 
+  
+    
+    
+    
+    /* ------------------------------ Header Section -------------------------------- */
+  .container1{
+    height: 120vh;
+  }
+  .header_container{
+   
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+    /* ------------------------------ NAV Section -------------------------------- */
+    
+    .features_container{
+      height: 200vh;
+      width: 40%;
+     
+    }
+    .features{
+      display: grid;
+      grid-template-columns:1fr;
+      gap: 2rem;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  
+     }
+     .container{
+      /* width: var(--container-width-sm); */
+     }
+    
+    
+    
+    
+    /* ------------------------------ ADVANTAGES Section -------------------------------- */
+   
+   .advantages{
+    text-align: center;
+  }
+  .adv_info{
+    padding-right: 3rem;
+    margin-left: -4rem;
+  }
+  .advantages{
+    height: 150vh;
+  
+  }
+   
+    /* ------------------------------ Header Section -------------------------------- */
+  
+    
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contact_container{
+    width: 40%;
+    height: 70vh;
+  }
+  
+  .footer_4{
+    margin-top: 2rem;
+  }
+  
+   
+  }
