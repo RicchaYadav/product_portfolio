@@ -96,7 +96,7 @@ nav{
     display: flex;
 
    top: 5rem;
-   height: 100vh;
+   height: 80vh;
    margin-bottom: 5rem;
   
 }
@@ -212,7 +212,7 @@ h1{
    .features_container{
     /* width: auto; */
     
-    height: 90vh;
+    height: 40vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -255,7 +255,7 @@ h1{
   .adv_container{
     align-items: center;
     justify-content: center;
-    margin: 6rem;
+    margin: 5rem;
     color: black;
     display: inline-block;
   }
@@ -400,6 +400,11 @@ footer ul li a:hover{
 
   /* --------------------------------------------------------------- NAVBAR SECTION  ------------------------------------------------------- */
  
+
+  body{
+    overflow-x: hidden;
+   }
+
  .navbar{
   display: flex;
   
@@ -407,7 +412,17 @@ footer ul li a:hover{
   margin: 0;
   padding: 4px;
  }
- 
+
+ .navbar-brand{
+  margin-left: 20px;
+
+ }
+
+
+ .navbar-right{
+  
+  margin-right: -40px;
+ }
  
  
  
@@ -425,6 +440,11 @@ footer ul li a:hover{
     grid-template-columns: 1fr;
   }
 
+  .header_right{
+    height: 290px;
+    width: 290px;
+    
+  }
 
 
   /* --------------------------------------------------------------- Features SECTION  ------------------------------------------------------- */
@@ -435,24 +455,47 @@ footer ul li a:hover{
   .features{
     display: grid;
     grid-template-columns: 1fr;
+    margin: 0;
+    padding: 2rem;
   }
 
+  
 
   /* --------------------------------------------------------------- ADVANTAGES SECTION  ------------------------------------------------------- */
 
   .advantages{
     height: 220vh;
-    margin: 0;
-    padding: 0;
+
     text-align: center;
     
+  }
+  .adv_container{
+    margin: 2.9rem;
+    display: table;
+  table-layout: fixed;
+  }
+
+  .adv_container p{
+    display: table-row;
   }
 
   /* --------------------------------------------------------------- FOOTER SECTION  ------------------------------------------------------- */
 
   .contact_container{
-    height: 60vh;
+    height: 70vh;
+    padding: 3rem 4rem;
   }
+
+  .footer{
+    grid-template-columns: 1fr;
+    
+  }
+
+  .footer_4{
+    margin-top: 2rem;
+  }
+
+
 
 }
 
