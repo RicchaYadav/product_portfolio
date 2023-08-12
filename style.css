@@ -49,8 +49,8 @@ nav{
     font-weight: bold;
     margin-left: 90px; /* Add right margin for spacing */
   }
-  
   .navbar-brand a {
+    display: flex;
     color: #fff;
     text-decoration: none;
   }
@@ -200,7 +200,7 @@ h1{
     height: 40px;
    }
 
- .header_btn:hober{
+ .header_btn:hover{
     transition: transparent;
    }
 
@@ -494,9 +494,6 @@ footer ul li a:hover{
   .footer_4{
     margin-top: 2rem;
   }
-
-
-
 }
 
 @media screen and (max-width: 450px){
@@ -504,4 +501,31 @@ footer ul li a:hover{
     line-height: 20px;
   }
 }
+
+
+.actionContainer{
+  margin-top: 5rem;
+  display: absolute;
+  justify-content: center;
+  line-height: 50px;
+  text-align: center;
+  color: black;
+}
+
+.actionContainer .btn{
+    
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  width: 15%;
+  margin-left: 5.1rem;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  background: var(--color-primary2);
+
+ }
+
+ .actionContainer .btn:hover{
+  background: transparent;
+ }
 
